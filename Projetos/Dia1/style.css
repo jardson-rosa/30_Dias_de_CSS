@@ -1,0 +1,26 @@
+
+/* Lakers color */
+.principal {
+    background: #FDB927;
+    border: 1px solid #552583;
+    color: #552583;
+    font-size: 0.8rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 0.2rem;
+    padding: 1rem;
+}
+
+.principal:hover {
+    background: #552583; /* Quando passa o mouse */
+    border: 1px solid #FDB927;
+    color: #FDB927;
+}
+
+.principal:focus {
+    background: rgb(6,25,34); /* Quando clica */
+    border: 1px solid #FDB927;
+    color: #FDB927;
+}
